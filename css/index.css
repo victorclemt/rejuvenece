@@ -1,0 +1,1091 @@
+body, p, h2, button, form
+{
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+img
+{
+	height: 100%;
+}
+h1
+{
+	font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 2%;
+    line-height: 4rem;
+    text-align: center;
+}
+input[type=number]::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+}
+header
+{
+	padding: 2% 0% 3.5% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header p
+{
+	font-family: 'Playfair Display', serif;
+}
+header p:nth-child(2)
+{
+	font-size: 1.8rem;
+    position: absolute;
+    right: 10%;
+}
+header p:nth-child(2) a
+{
+	margin-right: 15%;
+}
+
+.aviso{
+    margin-top: 10px;
+}
+
+.aviso a{
+    color: white;
+}
+
+.aviso a:hover{
+    color : #545454;
+}
+
+.sectionAviso{
+    text-align: left;
+    padding-top: 2%;
+    overflow-y: auto;
+    max-width: 50%;
+    /* padding-top: 2rem; */
+    margin-left: 25%;
+    padding-bottom: 5%;
+    max-height: 55vh;
+}
+
+/*.sectionAviso::-webkit-scrollbar {
+    display: none;
+}*/
+
+
+
+.p1
+{
+	color: #9e9488;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+.p2
+{
+	font-size: 0.9rem;
+    margin-bottom: 10%;
+    color: dimgrey;
+}
+
+.p2 a{
+    color: #9e9488;
+}
+
+
+.p2 a:hover{
+    color: #696969 ;
+}
+
+
+.p3
+{
+    margin-top: 3%;
+    font-size: 0.9rem;
+    color: #9e977b;
+    font-weight: 500;
+}
+.p4
+{
+    text-align: center;
+    font-weight: 400;
+    color: #565656;
+    margin-bottom: 5%;
+}
+.p5
+{
+	font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    margin: 12% 0% 7% 0%;
+    line-height: 1.5rem;
+    font-weight: 800;
+    color: #545454;
+}
+.p6
+{
+	color: #545454;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.p7
+{
+	font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+.p8
+{
+	color: #545454;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 8%;
+}
+.p9
+{
+	color: #727272;
+    list-style: decimal;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    display: flex;
+}
+.p9 p
+{
+	font-size: 0.9rem;
+    font-weight: 400;
+    padding-left: 3%;
+}
+.p9 li
+{
+	width: 27%;
+	padding: 2% 0%;
+}
+.p10
+{
+	font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: #565656;
+}
+.p11
+{
+	font-size: 1.4rem;
+    font-family: 'Playfair Display', serif;
+    color: #565656;
+    font-weight: 800;
+    margin-bottom: 4%;
+}
+.p12
+{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #727272;
+}
+.p13
+{
+	font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: 600;
+    color: #565656;
+    font-family: 'Playfair Display', serif;
+}
+.p9-1
+{
+	color: #727272;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-bottom: 7%;
+}
+.aside2 div:nth-child(1)
+{
+	width: 40%;
+    padding-right: 10%;
+}
+.aside2 div:nth-child(2)
+{
+	width: 50%;
+	background-image: url(../img/imagen.png);
+    padding: 14% 0%;
+    background-size: cover;
+    background-position: center;
+    background-color: whitesmoke;
+    border-radius: 30px 0px 0px 0px;
+}
+.div3 aside label
+{
+	font-size: 5rem;
+}
+.aside1
+{
+	width: 55%;
+    position: relative;
+}
+.aside1 p
+{
+	font-size: 0.8rem;
+    background: #d3cdb7;
+    font-weight: 500;
+    color: #727272;
+    padding: 5% 10% 6% 10%;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 1.4rem;
+    box-shadow: 4px 8px 10px 0px #cac3c3;
+}
+.p1-2
+{
+	font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 2%;
+    font-family: 'Playfair Display', serif;
+    color: #696969;
+}
+.label1
+{
+	font-size: 0.8rem;
+    line-height: 2rem;
+}
+.section1
+{
+	display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8% 10%;
+    position: relative;
+}
+.section2
+{
+	padding: 4% 10.8%;
+    text-align: center;
+}
+.section3
+{
+	background-image: url(../img/slide_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 8% 0% 5% 0%;
+    text-align: center;
+}
+.p14
+{
+	margin-top: 3%;
+    font-size: 0.9rem;
+    color: #565656;
+    text-align: right;
+}
+.section4
+{
+	padding: 2% 0% 8% 0%;
+}
+.section5
+{
+	padding: 7% 35%;
+    text-align: center;
+    align-items: center;
+}
+.section5 div
+{
+	width: 60%;
+}
+.h2-1
+{
+	font-family: 'Playfair Display', serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin: 0;
+    margin-bottom: 3%;
+    line-height: 4rem;
+    text-align: center;
+    color: #545454;
+}
+.text1
+{
+	margin-bottom: 4%;
+    width: 88%;
+    padding: 2% 6%;
+    border: solid 1px #9e9488;
+    font-size: 0.9rem;
+    color: #9e9488;
+    font-weight: 400;
+    border-radius: 10px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.text1:focus
+{
+    outline: none;
+}
+.text1::placeholder
+{
+	color: #c4c4c4;
+}
+.text2
+{
+	margin: 0% 1% 4% 0%;
+    width: 92%;
+    padding: 2% 4%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 600;
+    border: solid 2px #9e948863;
+    border-radius: 10px;
+    background: transparent;
+}
+.text2:focus
+{
+    outline: none;
+}
+#send1
+{
+	margin-top: 6%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    background: #565656;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 37%;
+    padding: 1.5% 0%;
+    border: solid 1px;
+}
+.button1
+{
+	padding: 1% 0%;
+    width: 38%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: #565656;
+    color: white;
+    border: solid 2px #565656;
+    position: absolute;
+    bottom: -9%;
+    left: 32%;
+}
+.button2
+{
+    margin-top: 3%;
+    padding: 1% 4%;
+    background: #7b5f43;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: solid 2px #7b5f43;
+}
+.button3
+{
+	padding: 0.8% 2.5%;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: #565656;
+    color: white;
+    border: solid 2px #565656;
+    margin-top: 2%;
+}
+#send2
+{
+	padding: 1% 10%;
+    background: #565656;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: auto;
+    display: block;
+    margin-top: 4%;
+    border: solid 2px #565656;
+    text-transform: uppercase;
+}
+.button3:hover
+{
+	background: transparent;
+    color: #565656;
+}
+#send2:hover
+{
+	background: transparent;
+    color: #565656;
+}
+.button1:hover, #send1:hover
+{
+    background: white;
+    color: #565656;
+}
+#send1:focus, #send2:focus, .button1:focus, .button2:focus, .button3:focus
+{
+    outline: none;
+}
+.button2:hover
+{
+    background: #f3e5d8;
+    color: #7b5f43;
+}
+.img1
+{
+	width: 23%;
+}
+.img7
+{
+	width: 50%;
+	padding: 26% 0%;
+    background-size: cover;
+    background-position: center;
+	transition: 1s;
+}
+.before1
+{
+	background-image: url(../img/antes3.jpg);
+}
+.before2
+{
+	background-image: url(../img/antes2.jpg);
+}
+.img4
+{
+	width: 100%;
+    margin: 5% 0%;
+}
+.aside2
+{
+	display: flex;
+}
+.section4 .aside2:nth-child(1)
+{
+	align-items: center;
+    margin-bottom: 10%;
+    padding-left: 10%;
+}
+.section4 .aside2:nth-child(3)
+{
+	justify-content: center;
+    padding: 0% 11%;
+}
+.section4 .aside2:nth-child(3) ul li:nth-child(1), .section4 .aside2:nth-child(3) ul li:nth-child(2)
+{
+	border-right-style: solid;
+    border-color: #d3cdb7;
+    border-width: 2px;
+    margin-right: 4.6%;
+    padding-right: 4.5%;
+}
+.p15
+{
+	color: #545454;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 5%;
+	text-align:center;
+}
+.aside3
+{
+	position: absolute;
+    width: 74%;
+    height: 100%;
+    left: 12%;
+    box-shadow: 4px 8px 10px 0px #cac3c3;
+    background-image: url(../img/slide1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.div1
+{
+	display: flex;
+    flex-wrap: wrap;
+}
+.div1 .img1:nth-child(2)
+{
+	margin-right: 8%;
+}
+.aside4
+{
+	text-align: center;
+    background: #d3cdb7;
+    padding: 3% 8% 5% 8%;
+}
+.div2
+{
+    width: 45%;
+    margin-right: 5%;
+}
+.div2 aside, .div3 aside
+{
+    width: 30%;
+    transition: 0.5s;
+    position: relative;
+    background: #d3cdb7;
+    border-radius: 10px;
+    padding: 5% 2.5%;
+}
+.div2 aside:hover
+{
+    box-shadow: -10px 10px 5px grey;
+}
+.div2 aside:nth-child(1), .div3 aside:nth-child(1)
+{
+    margin-right: 3%;
+}
+.div2 aside:nth-child(2), .div3 aside:nth-child(2)
+{
+    margin: 0% 3%;
+}
+.div2 aside:nth-child(3), .div3 aside:nth-child(3)
+{
+    margin-left: 3%;
+}
+.div7
+{
+	background: #d3cdb7cf;
+    padding: 2% 0%;
+	margin-bottom: 2%;
+}
+.div6 aside
+{
+    width: 50%;
+}
+.line1, .line2, .line3
+{
+    height: 2px;
+    background: #7b5f43;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.line1
+{
+    width: 57%;
+}
+.line2
+{
+    width: 72%;
+}
+.line3
+{
+    width: 94%;
+    margin-left: 3%;
+}
+footer
+{
+	padding: 6% 0%;
+    text-align: center;
+    background: #878374;
+    color: white;
+}
+footer p
+{
+	font-family: 'Playfair Display', serif;
+}
+footer p:nth-child(1)
+{
+	font-size: 1.2rem;
+    margin-bottom: 2%;
+    font-weight: 200;
+}
+footer p:nth-child(2)
+{
+	font-size: 0.9rem;
+    margin-bottom: 1%;
+    font-weight: 200;
+}
+footer p:nth-child(3)
+{
+	font-size: 0.9rem;
+}
+.advice1
+{
+	position: fixed;
+    bottom: -100%;
+    padding: 2% 5%;
+    background: #9e9488;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    transition: 1s;
+    z-index: 100;
+    font-weight: 200;
+}
+.close1
+{
+    position: absolute;
+    right: 1%;
+    top: -3%;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.div1 .p6, .div2 .p6
+{
+	margin-bottom: 3%;
+    font-weight: 500;
+}
+.div3
+{
+    display: flex;
+    justify-content: center;
+}
+.div6
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img5
+{
+    width: 100%;
+    border-radius: 4px;
+}
+.img6
+{
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    transition: 0.5s;
+    border-radius: 50%;
+}
+.formulario
+{
+	position: fixed;
+    background: #000000b8;
+    z-index: 101;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    top: -100%;
+}
+.message1
+{
+    position: fixed;
+    background: #9e94886b;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    cursor: pointer;
+    text-align: center;
+}
+.message1 p
+{
+    background: white;
+    padding: 2% 2%;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+.error
+{
+    color: red;
+}
+.correct
+{
+    color: rgb(123, 95, 67);
+}
+.div5
+{
+	padding: 5% 10%;
+    border-radius: 20px;
+    position: relative;
+    background: #d3cdb7;
+    width: 40%;
+}
+.close2
+{
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.movile
+{
+	display: none;
+}
+.div3 aside:nth-child(1) .div4
+{
+	background-image: url(../img/cosmetica.jpg);
+}
+.div3 aside:nth-child(2) .div4
+{
+	background-image: url(../img/treatment.jpg);
+}
+.div3 aside:nth-child(3) .div4
+{
+	background-image: url(../img/imperfeccion.jpg);
+}
+.section6
+{
+	padding: 0% 7%;
+}
+@media only screen and (min-width: 1600px)
+{
+	.p4
+	{
+		top: 25%;
+		left: 33%;
+	}
+	.div4
+	{
+		padding: 25%;
+	}
+	.close2
+	{
+		top: 4%;
+	}
+	.p5 i
+	{
+		display: none;
+	}
+}
+@media only screen and (max-width: 1024px)
+{
+	.p5 i
+	{
+		display: none;
+	}
+	header p:nth-child(2) a
+	{
+		margin-right: 10%;
+	}
+	.p9-1
+	{
+		margin-bottom: 10%;
+	}
+	.p14
+	{
+		margin-top: 8%;
+		text-align: center;
+	}
+	.close1
+	{
+		top: -9%;
+	}
+	.img2
+	{
+		width: 120%;
+	}
+	.advice1
+	{
+		padding: 2% 8%;
+		font-size: 0.8rem;
+	}
+	.p1-2
+	{
+		font-size: 1.1rem;
+	}
+	.p2
+	{
+		font-size: 0.8rem;
+	}
+	.movile
+	{
+		display: block;
+	}
+	.desk
+	{
+		display: none;
+	}
+	.aside3
+	{
+		background: none;
+		height: auto;
+		position: unset;
+		width: 100%;
+		overflow: hidden;
+		display: flex;
+		box-shadow: 7px 8px 10px 0px #cac3c3;
+	}
+	header
+	{
+		text-align: center;
+		line-height: 2rem;
+		padding: 4% 0%;
+		overflow: hidden;
+	}
+	h1
+	{
+		font-size: 0.8rem;
+		position: absolute;
+		top: 40%;
+		text-align: left;
+		line-height: normal;
+		width: 27%;
+		right: 9%;
+	}
+	.p1
+	{
+		font-size: 1.5rem;
+		width: 60%;
+	}
+	.p5
+	{
+		margin: 4% 0% 2% 0%;
+	}
+	header p:nth-child(2)
+	{
+		position: unset;
+		font-size: 1.5rem;
+		width: 40%;
+	}
+	.button1
+	{
+		bottom: 4%;
+		font-size: 0.8rem;
+		width: 45%;
+		left: 27%;
+		padding: 0% 0%;
+	}
+    .message1 p
+    {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+	.aside1 p
+	{
+		font-size: 0.7rem;
+		color: white;
+		font-weight: 200;
+		padding: 5% 8% 8% 8%;
+		line-height: normal;
+	}
+    .aside1
+    {
+		width: 90%;
+		margin: 5% auto;
+		text-align: center;
+		position: unset;
+    }
+    .section1
+    {
+		display: block;
+		padding: 2% 7%;
+    }
+    #form1
+    {
+        width: 100%;
+        margin-top: 6%;
+    }
+    #send1
+    {
+		margin-top: 2%;
+		padding: 2% 0%;
+		width: 49%;
+		font-size: 1rem;
+    }
+    .p3
+    {
+		margin: 4% 0%;
+		font-size: 0.8rem;
+    }
+    .section3
+    {
+        position: relative;
+		padding: 10% 0%;
+    }
+	.section4
+	{
+		padding: 10% 15%;
+		display: block;
+	}
+	.aside2
+	{
+		width: 100%;
+		padding: 0% 0%!important;
+		display: block;
+	}
+	.p8
+	{
+		color: #545454;
+		font-family: 'Playfair Display', serif;
+		font-size: 1.3rem;
+		margin-bottom: 10%;
+	}
+    .div1
+    {
+        width: 100%;
+		margin-left: 0%;
+    }
+	footer
+	{
+		padding: 10% 18%;
+	}
+	footer p:nth-child(1)
+	{
+		font-size: 1rem;
+		margin-bottom: 7%;
+	}
+	footer p:nth-child(2), footer p:nth-child(3)
+	{
+		font-size: 0.8rem;
+	}
+	.img1
+	{
+		width: 50%;
+	}
+	.p11
+	{
+		font-size: 1.4rem;
+		margin-bottom: 10%;
+	}
+	.section6
+	{
+		padding: 0% 0%;
+	}
+	.aside4
+	{
+		padding: 9% 8% 12% 8%;
+	}
+	.div1 .img1:nth-child(2)
+	{
+		margin-right: 0%;
+	}
+	.div1 .img1:nth-child(1), .div1 .img1:nth-child(2)
+	{
+		margin-bottom: 8%;
+	}
+	.section4 aside:nth-child(2)
+	{
+		margin-top: 8%;
+	}
+    .p9
+    {
+		font-size: 0.8rem;
+		padding: 0;
+		display: block;
+    }
+    .button2
+    {
+        margin-top: 8%;
+    }
+    .div3
+    {
+        flex-wrap: wrap;
+    }
+    .div3 aside
+    {
+        width: 100%;
+		margin: 0% 0% 6% 0%!important;
+		padding: 11% 6.5%;
+    }
+	.p9 li
+	{
+		width: 100%;
+		padding: 4% 0%;
+	}
+	.section4 .aside2:nth-child(3) ul li:nth-child(1), .section4 .aside2:nth-child(3) ul li:nth-child(2)
+	{
+		border-right: none;
+		margin-right: 0%;
+		padding-right: 0%;
+	}
+    .section5
+    {
+        padding: 20% 10%;
+    }
+    .section5 .h2-1
+    {
+        font-size: 2rem;
+    }
+	.p12
+	{
+		font-size: 0.6rem;
+	}
+	.div3 aside:nth-child(2) label, .div3 aside:nth-child(3) label
+	{
+		font-size: 3rem;
+	}
+	.section2
+	{
+		padding: 4% 25%;
+	}
+	.div3 aside:nth-child(1) label
+	{
+		font-size: 3.5rem;
+		line-height: 4rem;
+	}
+	.h2-1
+	{
+		font-size: 0.9rem;
+		line-height: normal;
+		margin-bottom: 10%;
+	}
+	.p6
+	{
+		font-size: 0.9rem;
+	}
+	.button3
+	{
+		padding: 0.8% 6%;
+		font-size: 1rem;
+	}
+    .change
+    {
+        right: 8%;
+    }
+    .div5
+    {
+        width: 80%;
+		padding: 5% 7%;
+    }
+    .img7
+    {
+        width: 100%;
+		padding: 60% 0%;
+    }
+    .close2
+    {
+        right: 3%;
+		top: 3%;
+    }
+    .p13
+    {
+        font-size: 1.4rem;
+		line-height: 1.7rem;
+    }
+    .p7
+    {
+        font-size: 0.8rem;
+		padding: 0% 10%;
+    }
+	.section4 .aside2:nth-child(1) 
+	{
+		align-items: center;
+		padding-left: 0%;
+		margin-bottom: 13%;
+	}
+	.aside2 div:nth-child(1)
+	{
+		width: 100%;
+		padding-right: 0;
+		margin-bottom: 12%;
+	}
+	.aside2 div:nth-child(2)
+	{
+		width: 100%;
+		padding: 30% 0%;
+	}
+    .div6 aside
+    {
+        width: 100%;
+    }
+	.section5 div
+	{
+		width: 100%;
+	}
+}
